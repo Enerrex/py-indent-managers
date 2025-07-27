@@ -3,7 +3,7 @@ import threading
 from contextlib import contextmanager
 from typing import Optional, Tuple, Callable, ContextManager
 
-from src.indent_managers.base import BaseIndentManager
+from indent_managers.base import BaseIndentManager
 
 
 class LoggingIndentManager(BaseIndentManager):

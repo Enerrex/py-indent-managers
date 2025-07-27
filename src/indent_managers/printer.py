@@ -1,7 +1,7 @@
 import sys
 from typing import Tuple, Callable, ContextManager, Optional
 
-from src.indent_managers.base import BaseIndentManager
+from indent_managers.base import BaseIndentManager
 
 
 class PrintManager(BaseIndentManager):

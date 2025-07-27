@@ -22,9 +22,6 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/yourusername/indent-managers"
 
-[tool.setuptools]
-packages = { find = { where = ["src"] } }
-
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["indent_managers*"]
+
